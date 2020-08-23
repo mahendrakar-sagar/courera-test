@@ -226,7 +226,32 @@ console.log(doubleAll(10));*/
 	window.doer =obj;
 })(window);
 doer.dreamOn();*/
+////////////////////DOM
+//console.log(document.getElementById("title"))
+//console.log(document instanceof HTMLDocument)
+///////////////DOM///////////////////////////////////
 
+
+function sayHello() {
+	var name =
+            document.getElementById("name").value
+		var message = "Hello   " + name + " !"
+
+		document
+.getElementById("content")
+.innerHTML =message;
+
+if (name === "student"){
+	var title=
+	document.querySelector("#title")
+	.textContent;
+	title += " & lovin it"
+
+	document.querySelector("#title")
+	.textContent=title;
+
+}
+}
 
 
 
